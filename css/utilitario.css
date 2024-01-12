@@ -1,0 +1,88 @@
+:root {
+    --cor-r0: #F3CDFF;
+    --cor-r1: #E6B5F5;
+    --cor-r2: #DD9BF2;
+    --cor-r3: #CD80E5;
+    --cor-r4: #AC5AC6;
+    --cor-r5: #84349E;
+    --cor-r6: #56196A;
+    --cor-r7: #2F0A3A;
+    --cor-r8: #15031B;
+    
+    --cor-a1: #99F6EB;
+    --cor-a2: #71EBDC;
+    --cor-a3: #64D8CA;
+    --cor-a4: #41C2B2;
+    --cor-a5: #2CA496;
+    --cor-a6: #177368;
+    --cor-a7: #0C4740;
+    --cor-a8: #052420;
+    
+    --cor-c1: #EDEDED;
+    --cor-c2: #DBDBDB;
+    --cor-c3: #C9C9C9;
+    --cor-c4: #B8B8B8;
+    --cor-c5: #A6A6A6;
+    --cor-c6: #949494;
+    --cor-c7: #828282;
+    --cor-c8: #707070;
+    --cor-c9: #5E5E5E;
+    --cor-c10: #4D4D4D;
+    --cor-c11: #3B3B3B;
+    --cor-c12: #292929;
+    --cor-c13: #171717;
+    --cor-c14: #050505;
+    
+}
+    
+.font-1-xl {
+    font: 700 4rem/1.2 "Poppins", sans-serif;
+}
+    
+.font-1-l {
+    font: 700 3rem/1.1 "Poppins", sans-serif;
+}
+    
+.font-1-m {
+    font: 700 2.25rem/1.25 "Poppins", sans-serif;
+}
+    
+.font-1-s {
+    font: 700 2rem/1.125 "Poppins", sans-serif;
+}
+    
+.font-1-xs {
+    font: 700 1.5rem/1.5 "Poppins", sans-serif;
+}
+    
+.font-2-m {
+    font: 400 1.5rem/1.33 "Roboto", sans-serif;
+}
+    
+.font-2-m-b {
+    font: 700 1.5rem/1.33 "Roboto", sans-serif;
+}
+    
+.font-2-s {
+    font: 400 1.25rem/1.4 "Roboto", sans-serif;
+}
+    
+.font-2-xs {
+    font: 400 1.125rem/1.33 "Roboto", sans-serif;
+}
+
+
+.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+
+.botao {
+    color: var(--cor-r8);
+    border: 2px solid var(--cor-r8);
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: inline-block;
+}

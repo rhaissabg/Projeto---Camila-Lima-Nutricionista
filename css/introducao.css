@@ -1,0 +1,37 @@
+.intro-bg {
+    background-image: linear-gradient(45deg, var(--cor-a1),var(--cor-r0) 50%);
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.intro h1 {
+    color: var(--cor-r8);
+    margin-bottom: 32px;
+}
+
+.intro p {
+    color: var(--cor-c12);
+    margin-bottom: 20px;
+}
+
+.botao.seta {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.intro a::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("../img/seta.svg");
+    display: inline-block;
+    justify-self: start;
+}
