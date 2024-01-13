@@ -28,3 +28,17 @@
         gap: 20px;
     }
 }
+
+@media (max-width: 500px) {
+    .menu-header li a {
+        font-size: 1rem;
+    }
+
+    .menu-header li:nth-child(3) {
+        display: none;
+    }
+
+    .header {
+        padding-bottom: 20px;
+    }
+}

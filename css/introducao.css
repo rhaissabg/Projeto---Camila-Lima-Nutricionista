@@ -93,3 +93,15 @@
         text-align: center;
     }
 }
+
+@media (max-width: 500px) {
+    .texto-intro h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .texto-intro p,
+    .texto-intro .botao {
+        font-size: 1.125rem;
+    }
+}

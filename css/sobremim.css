@@ -181,3 +181,43 @@
 
 }
 
+@media (max-width: 500px) {
+    .sobremim-conteudo {
+        padding-top: 0px;
+        margin-left: -50px;
+    }
+
+    .sobremim-texto h2 {
+        font-size: 1.5rem;
+    }
+
+    .sobremim-texto > p {
+        font-size: 1.125rem;
+        margin-bottom: 20px;
+    }
+
+    .sobremim-lista h3 {
+        font-size: 1.1rem;
+    }
+
+    .sobremim-lista p {
+        font-size: 1rem;
+    }
+
+    .sobremim-lista .cronica::before {
+        display: none;
+    }
+
+    .sobremim-lista .atleta::before {
+        display: none;
+    }
+
+    .sobremim-lista .reeducacao::before {
+        display: none;
+    }
+
+    .sobremim-lista .crianca::before {
+        display: none;
+    }
+}
+
