@@ -1,0 +1,81 @@
+.atendimentos {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.atendimentos h2 {
+    margin-bottom: 60px;
+}
+
+.lista-atendimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.lista-atendimentos h3 {
+    margin-bottom: 20px;
+}
+
+.lista-atendimentos li {
+    border: 2px solid var(--cor-c14);
+    border-radius: 8px;
+    padding: 60px 40px;
+    display: grid;
+}
+
+.atendimentos p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--cor-c11);
+    margin-bottom: 12px;
+}
+
+.atendimentos p::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url("../img/check.svg");
+}
+
+.lista-atendimentos .botao {
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: var(--cor-r1);
+}
+
+.lista-atendimentos .botao::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url("../img/seta.svg");
+}
+
+.lista-atendimentos .botao:hover:after {
+    transform: translateX(4px);
+    transition: 0.3s;
+} 
+
+.lista-atendimentos .botao:hover {
+    background-color: var(--cor-r3);
+    transition: 0.3s;
+}
+
+@media (max-width: 1000px) {
+    .atendimentos {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .lista-atendimentos {
+        grid-template-columns: 1fr;
+    }
+}
