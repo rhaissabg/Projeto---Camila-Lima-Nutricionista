@@ -4,34 +4,88 @@
 
 .intro {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 40px;
     padding-top: 60px;
     padding-bottom: 120px;
 }
 
-.intro h1 {
-    color: var(--cor-r8);
+.intro img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.texto-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: start;
+}
+
+.texto-intro h1 {
+    span: 3;
     margin-bottom: 32px;
 }
 
-.intro p {
-    color: var(--cor-c12);
+.texto-intro p {
+    grid-column: 1 / -1;
     margin-bottom: 20px;
+    max-width: 40ch;
 }
 
-.botao.seta {
+.texto-intro .botao {
+    grid-column: 1;
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 8px;
+    justify-self: start;
 }
 
-.intro a::after {
+.texto-intro .botao::after {
     content: "";
     width: 24px;
     height: 24px;
     background: url("../img/seta.svg");
-    display: inline-block;
-    justify-self: start;
+}
+
+.texto-intro .botao:hover:after {
+    transform: translateX(4px);
+    transition: 0.3s;
+} 
+
+@media (max-width: 1200px) {
+    .texto-intro h1 {
+        font-size: 3.5rem;
+    }
+
+    .texto-intro p,
+    .texto-intro .botao {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    .intro img {
+        display: none;
+    }
+
+    .intro {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    .texto-intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .texto-intro h1,
+    .texto-intro p {
+        text-align: center;
+    }
 }
