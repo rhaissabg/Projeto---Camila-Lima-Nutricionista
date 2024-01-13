@@ -160,6 +160,14 @@
 }
 
 @media (max-width: 1000px) {
+    .sobremim-texto h2 {
+        font-size: 2.25rem;
+    }
+
+    .sobremim-texto > p {
+        font-size: 1.4rem;
+    }
+
     .sobremim-lista {
         grid-template-columns: 1fr;
     }
