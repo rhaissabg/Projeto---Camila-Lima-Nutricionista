@@ -1,0 +1,48 @@
+.footer-bg {
+    background-image: linear-gradient(45deg, var(--cor-a1),var(--cor-r0) 50%);
+}
+
+.footer {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    display: grid;
+}
+
+.footer iframe {
+    justify-self: center;
+    margin-bottom: 60px;
+}
+
+.footer-conteudo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+}
+
+.footer-conteudo img {
+    margin-bottom: 20px;
+}
+
+.footer-texto {
+    color: var(--cor-c12);
+}
+
+.footer-contato {
+    margin-left: 96px;
+}
+
+.footer-navegar {
+    margin-left: 60px;
+}
+
+.footer-contato li,
+.footer-navegar li {
+    color: var(--cor-c12);
+    margin-bottom: 12px;
+}
+
+.footer-contato li:first-child,
+.footer-navegar li:first-child {
+    margin-bottom: 20px;
+    color: var(--cor-r8);
+}
