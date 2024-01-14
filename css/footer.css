@@ -35,6 +35,12 @@
     margin-left: 60px;
 }
 
+.footer-contato,
+.footer-navegar,
+.footer-texto p {
+    font-size: 1.125rem;
+}
+
 .footer-contato li,
 .footer-navegar li {
     color: var(--cor-c12);
@@ -45,6 +51,7 @@
 .footer-navegar li:first-child {
     margin-bottom: 20px;
     color: var(--cor-r8);
+    font-size: 1.5rem;
 }
 
 @media (max-width: 1000px) {
@@ -72,18 +79,7 @@
         grid-template-columns: 1fr;
     }
 
-    .footer-contato,
-    .footer-navegar,
-    .footer-texto p {
-        font-size: 1.125rem;
-    }
-
     .footer-navegar {
         margin-left: 0px;
     }
-
-    .footer-contato li:first-child,
-    .footer-navegar li:first-child {
-        font-size: 1.5rem;
-}
 }

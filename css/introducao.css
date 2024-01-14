@@ -75,6 +75,10 @@
         display: none;
     }
 
+    .texto-intro h1 {
+        font-size: 3rem;
+    }
+
     .intro {
         grid-template-columns: 1fr;
         justify-content: center;
@@ -96,7 +100,7 @@
 
 @media (max-width: 500px) {
     .texto-intro h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-bottom: 20px;
     }
 

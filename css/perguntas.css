@@ -38,18 +38,18 @@
     object-position: right;
 }
 
+.perguntas h3 {
+    font-size: 1.75rem;
+}
+
+.perguntas p {
+    font-size: 1.125rem;
+}
+
 @media (max-width: 1200px) {
     .perguntas h2 {
         font-size: 2.25rem;
         margin-bottom: 32px;
-    }
-
-    .perguntas h3 {
-        font-size: 1.75rem;
-    }
-
-    .perguntas p {
-        font-size: 1.125rem;
     }
 }
 
