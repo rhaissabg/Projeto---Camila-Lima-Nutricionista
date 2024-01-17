@@ -11,6 +11,7 @@
 .footer iframe {
     justify-self: center;
     margin-bottom: 60px;
+    border-radius: 8px;
 }
 
 .footer-conteudo {
