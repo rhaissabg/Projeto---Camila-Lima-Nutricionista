@@ -20,6 +20,12 @@
     align-items: start;
 }
 
+.footer-conteudo li:hover,
+.footer-navegar li:hover {
+    color: var(--cor-r5);
+}
+
+
 .footer-conteudo img {
     margin-bottom: 20px;
 }

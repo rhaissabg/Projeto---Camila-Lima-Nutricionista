@@ -137,7 +137,7 @@
     }
 
     .sobremim-conteudo {
-        padding-top: 0px;
+        padding-top: 32px;
         padding-bottom: 32px;
     }
 }
@@ -145,6 +145,7 @@
 @media (max-width: 1100px) {
     .sobremim-conteudo {
         grid-template-columns: 1fr;
+        padding-top: 0;
     }
 
     .sobremim-lista p {
