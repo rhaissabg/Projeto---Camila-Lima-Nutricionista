@@ -110,4 +110,13 @@
         font-size: 1rem;
     }
 
+    .container-lista.ativo .resposta {
+        height: 104px;
+    }
+
+    .pergunta::after {
+        right: -12px;
+        top: -4px;
+    }
+
 }
